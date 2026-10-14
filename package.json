@@ -1,0 +1,13 @@
+{
+  "name": "rqa-billing-webhook",
+  "version": "1.0.0",
+  "description": "Receives payment webhooks and creates refunds.",
+  "private": true,
+  "main": "src/server.js",
+  "engines": { "node": "24.21.0" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": { "stripe": "23.0.0" }
+}
